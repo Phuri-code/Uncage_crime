@@ -14,7 +14,7 @@ export default function TopNavigation(){
             <li><ActiveLink href="/home">HOME</ActiveLink></li>
             <li><ActiveLink href="/About">ABOUT</ActiveLink></li>
             <li><ActiveLink href="/contact">STORE</ActiveLink></li>
-            <li><ActiveLink href="/post/first-post">SIGN</ActiveLink></li>
+            <li><ActiveLink href="#">SIGN</ActiveLink></li>
         </ul>
     </header>
     </section>
