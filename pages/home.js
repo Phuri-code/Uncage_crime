@@ -11,7 +11,6 @@ export default function switchPage(){
           <TopNavigation />            
                {/* <title>create next app</title> */}
                <h1>Hello world This is our home page</h1>
-          
           <Footer />
           </div>
    )
