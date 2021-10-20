@@ -1,9 +1,10 @@
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 .sec{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 60px
 } 
 .header{
     position: fixed;
@@ -15,7 +16,7 @@
     align-items: center;
 }
 .header{
-    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);    
 }
 
 .header ul{
