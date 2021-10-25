@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core';
+import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -12,11 +12,14 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 
 const useStyles = makeStyles({
   root: {
+    // border: "10px solid red",
     maxWidth: 270,
     margin: '60px 21px 0px 21px'
 
   },
-
+  // form: {
+  //   border: '10px solid black'
+  // }
 
 });
 
@@ -56,7 +59,8 @@ export default function ImgMediaCard() {
           know More
         </Button>
       </CardActions>
-    </Card></Grid>
+    </Card>
+    </Grid>
       <Grid item xs>
     <Card className={classes.root}>
       <CardActionArea>
