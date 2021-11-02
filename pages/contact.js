@@ -2,6 +2,7 @@
 import Footer from '../Components/container/footer'
 import Image from '../Components/container/image'
 import TopNavigation from '../Components/container/topNavigation'
+import Footer1 from '../Components/Layout/Footer'
 // const contact =() =>{
     export default function contact(){
     return <div>
@@ -10,6 +11,6 @@ import TopNavigation from '../Components/container/topNavigation'
         <Image/>
         <Image/>
         <Image/>
-        <Footer />
+        {/* <Footer /> */}
     </div>
 }

@@ -55,7 +55,7 @@ export default function Contact(){
 
                align="center"
                color="textSecondary"
-               >Contact Us</Typography>
+               >Report Problems </Typography>
                <form  noValidate autoComplete="off" onSubmit={ handleSubmit}>
                <TextField
                    onChange={(e) => setTitle(e.target.value)}  

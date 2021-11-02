@@ -1,0 +1,25 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:gray;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.card-view{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    width: 200px;
+    Height: 320px;
+    margin:5px;
+    transition: 0.2s;
+}
+.card-view:hover{
+    border: 3px solid grey;
+    box-shadow: grey 4px 4px 5px 2px;
+    transition: 0.2s;
+}

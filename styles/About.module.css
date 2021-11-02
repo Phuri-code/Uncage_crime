@@ -21,13 +21,13 @@
     margin: auto;
 }
 .sec1{
-    background-color: red;
+    background-color:red;
     min-height: 120vh;
     width: 100%;  
     
 }
 .div p{
-    font-size: 1.25rem;
+    font-size: 1.50rem;
 }
 .h1{
     font-size: 5rem;

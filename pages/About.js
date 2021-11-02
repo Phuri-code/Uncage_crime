@@ -1,9 +1,10 @@
 import React from 'react';
-import Footer from '../Components/container/footer'
+/*import Footer from '../Components/container/footer'*/
 import TopNavigation from '../Components/container/topNavigation'
 import styles from '../styles/About.module.css'
 import Contact from './ImgMedia/Contact';
 import ImgMediaCard from './ImgMedia/imgmedai';
+import Footer1 from "../Components/Layout/Footer";
 
 export default function About() {
     return (
@@ -12,17 +13,10 @@ export default function About() {
              <TopNavigation/>
             <div className={styles.box} >
             <div className={styles.div}> 
-            <h1>about us</h1>
-            <p>Along the way, MailChimp continued to share photos of its executives and other 
-            key team members, effectively humanizing its brand by putting several faces to its name.
-            The email company also did a great job of building trust by incorporating elements of social proof
-            (i.e. media and user testimonials, partner logos, etc.).Along the way, MailChimp continued to share photos of its executives and other 
-            key team members, effectively humanizing its brand by putting several faces to its name.
-            The email company also did a great job of building trust by incorporating elements of social proof
-            (i.e. media and user testimonials, partner logos, etc.).Along the way, MailChimp continued to share photos of its executives and other 
-            key team members, effectively humanizing its brand by putting several faces to its name.
-            The email company also did a great job of building trust by incorporating elements of social proof
-            (i.e. media and user testimonials, partner logos, etc.). </p>
+            <h1>About Us</h1>
+            <p>We created our website to share the true crimes around the world to all the users with the independent and variety .<br/>
+            Our website is the best website that relevant for all who interesting on crime cases .
+            Because our website is contain many type of cases that useful and helpful for user to entertained. You also can buy many books about criminals and laws that you love with a reasonable price and the easiest way. </p>
             </div>
         </div>
                 
@@ -40,8 +34,7 @@ export default function About() {
         </div>
         </section>
         <ImgMediaCard/>
-            <Footer/> 
-                
+            {/* <Footer1/> */}
         </div>
      
     )
