@@ -18,7 +18,118 @@ const books=[
         author:"Phuri",
         date:"02/11/2021",
         price:100
-    }
+    },
+    {
+        image: "my.jpg",
+        title:"Title",
+        author:"Phuri",
+        date:"02/11/2021",
+        price:60
+    },
+    {
+        image: "vercel.svg",
+        title:"Kimlang",
+        author:"Phuri",
+        date:"02/11/2021",
+        price:100
+    },
+    {
+        image: "my.jpg",
+        title:"Title",
+        author:"Phuri",
+        date:"02/11/2021",
+        price:60
+    },
+    {
+        image: "vercel.svg",
+        title:"Kimlang",
+        author:"Phuri",
+        date:"02/11/2021",
+        price:100
+    },
+    {
+        image: "my.jpg",
+        title:"Title",
+        author:"Phuri",
+        date:"02/11/2021",
+        price:60
+    },
+    {
+        image: "vercel.svg",
+        title:"Kimlang",
+        author:"Phuri",
+        date:"02/11/2021",
+        price:100
+    },
+    {
+        image: "my.jpg",
+        title:"Title",
+        author:"Phuri",
+        date:"02/11/2021",
+        price:60
+    },
+    {
+        image: "vercel.svg",
+        title:"Kimlang",
+        author:"Phuri",
+        date:"02/11/2021",
+        price:100
+    },
+    {
+        image: "my.jpg",
+        title:"Title",
+        author:"Phuri",
+        date:"02/11/2021",
+        price:60
+    },
+    {
+        image: "vercel.svg",
+        title:"Kimlang",
+        author:"Phuri",
+        date:"02/11/2021",
+        price:100
+    },
+    {
+        image: "my.jpg",
+        title:"Title",
+        author:"Phuri",
+        date:"02/11/2021",
+        price:60
+    },
+    {
+        image: "vercel.svg",
+        title:"Kimlang",
+        author:"Phuri",
+        date:"02/11/2021",
+        price:100
+    },
+    {
+        image: "my.jpg",
+        title:"Title",
+        author:"Phuri",
+        date:"02/11/2021",
+        price:60
+    },
+    {
+        image: "vercel.svg",
+        title:"Kimlang",
+        author:"Phuri",
+        date:"02/11/2021",
+        price:100
+    }, {
+        image: "my.jpg",
+        title:"Title",
+        author:"Phuri",
+        date:"02/11/2021",
+        price:60
+    },
+    {
+        image: "vercel.svg",
+        title:"Kimlang",
+        author:"Phuri",
+        date:"02/11/2021",
+        price:100
+    },
 ]
 export default function Store() {
     return (

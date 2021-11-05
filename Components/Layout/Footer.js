@@ -8,27 +8,31 @@ export default function Footer1(){
     return(
         <footer>
             <Box 
-                bgcolor="Black"
-                color="Red"
+               style={{backgroundColor:'black',color: 'red'}}
             >
                 <Container>
-                    <Grid container spacing ={0}>
-                        <Grid item xs={12} sm={2}>
-                            <Box paddingLeft='30px'
-                                 color="white">
+                    <Grid container spacing ={3} justifyContent="center">
+                        <Grid item xs={12} sm={3}>
+                            <Box 
+                           
+                                 style={{ 
+                                 color:"white"}}
+                                 >
                                 <h3>USEFUL-LINKS </h3>
                             </Box>
-                             <Box paddingLeft='30px'>
+                             <Box  style={{ 
+                                paddingLeft: '30px'}}>
                                 <Link href="./index" color="inherit">
                                     Homepage
                                 </Link>
                              </Box>
-                             <Box paddingLeft='30px'>
+                             <Box  style={{ 
+                                 color:"white"}}>
                                 <Link href="./contact" color="inherit">
                                     Storepage
                                 </Link>
                              </Box>
-                             <Box paddingLeft='30px'>
+                             <Box >
                                 <Link href="./About" color="inherit">
                                     AboutUs
                                 </Link>
@@ -39,10 +43,10 @@ export default function Footer1(){
                                 </Link>
                              </Box>
                         </Grid>
-                        <Grid>
-                        <Grid item xs={20} sm={25}>
-                             <Box color='white'
-                                  paddingLeft="350px">
+                        
+                        <Grid item xs={12} sm={3}>
+                             <Box style={{ 
+                                 color:"white"}}>
                                 <h3>SPONSERS</h3></Box>
                              <Box paddingLeft="350px">
                                 <Link href="https://elpspda.com/" color="inherit">
@@ -65,11 +69,13 @@ export default function Footer1(){
                                 </Link>
                              </Box>
                              </Grid>
-                        </Grid>
-                        <Grid>
-                        <Grid item xs={30} sm={20}>
+                        
+                       
+                        <Grid item xs={12} sm={3}>
                              <Box paddingLeft="400px"
-                                  color="white">
+                                  style={{ 
+                                    color:"white",
+                                    paddingLeft:"400px"}}>
                                  <h3>FOLLOW US</h3></Box>
 
                              <Box paddingLeft='400px'>
@@ -94,7 +100,7 @@ export default function Footer1(){
                              </Box>
                              </Grid>
                         </Grid>    
-                    </Grid>
+                   
                     <Box textAlign="center" pt={{xs: 5, sm: 10}} pb={{xs: 5, sm: 0}} color="white">
                         UNCAGED CRIMES &reg; {new Date().getFullYear};
                     </Box>

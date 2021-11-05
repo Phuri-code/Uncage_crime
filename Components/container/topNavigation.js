@@ -11,7 +11,7 @@ export default function TopNavigation() {
                     <AppBar>
                          <header className={styles.header}>
                               <a href="#"><LING /></a>
-                              <input />
+                              <input/>
                               <ul>
                                    <li>  <ActiveLink href="/">HOME</ActiveLink></li>
                                    <li>  <ActiveLink href="/about">ABOUT</ActiveLink></li>

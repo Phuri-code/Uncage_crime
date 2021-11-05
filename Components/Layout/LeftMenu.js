@@ -7,6 +7,14 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid'
 import Category1 from './Category1'
+import Category2 from './Category2';
+import Category3 from './Category3';
+import Category4 from './Category4';
+import Category5 from './Category5';
+import Category6 from './Category6';
+import Category7 from './Category7';
+import Category8 from './Category8';
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -69,40 +77,40 @@ export default function LeftMenu() {
             aria-label="Vertical tabs example"
             className={classes.tabs}
           >
-            <Tab label="Category 1" {...a11yProps(0)} />
-            <Tab label="Category 2" {...a11yProps(1)} />
-            <Tab label="Item Three" {...a11yProps(2)} />
-            <Tab label="Item Four" {...a11yProps(3)} />
-            <Tab label="Item Five" {...a11yProps(4)} />
-            <Tab label="Item Six" {...a11yProps(5)} />
-            <Tab label="Item Seven" {...a11yProps(6)} />
-            <Tab label="Item Seven" {...a11yProps(7)} />
+            <Tab label="Unsolve" {...a11yProps(0)} />
+            <Tab label="Solve" {...a11yProps(1)} />
+            <Tab label="Kidnapping" {...a11yProps(2)} />
+            <Tab label="Serial Killers" {...a11yProps(3)} />
+            <Tab label="Hate Crimes" {...a11yProps(4)} />
+            <Tab label="Homicide" {...a11yProps(5)} />
+            <Tab label="Robbering" {...a11yProps(6)} />
+            <Tab label="Sexual Harrasment" {...a11yProps(7)} />
           </Tabs>
         </Grid>
         <Grid item item xs={12} sm={8} md={9}>
           <TabPanel value={value} index={0}>
-            Item One
-          </TabPanel>
-          <TabPanel value={value} index={1}>
             <Category1/>
           </TabPanel>
+          <TabPanel value={value} index={1}>
+            <Category2/>
+          </TabPanel>
           <TabPanel value={value} index={2}>
-            Item Three
+            <Category3/>
           </TabPanel>
           <TabPanel value={value} index={3}>
-            Item Four
+            <Category4/>
           </TabPanel>
           <TabPanel value={value} index={4}>
-            Item Five
+            <Category5/>
           </TabPanel>
           <TabPanel value={value} index={5}>
-            Item Six
+            <Category6/>
           </TabPanel>
           <TabPanel value={value} index={6}>
-            Item Seven
+            <Category7/>
           </TabPanel>
           <TabPanel value={value} index={7}>
-            Item Seven
+            <Category8/>
           </TabPanel>
         </Grid>
       </Grid>
